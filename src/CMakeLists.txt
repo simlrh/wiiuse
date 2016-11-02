@@ -26,8 +26,14 @@ set(SOURCES
 set(API
 	wiiuse.h)
 
+option(WIN_PIPES "Communicate with remotes via pipes")
+
 if(WIN32)
-	list(APPEND SOURCES os_win.c)
+	if (WIN_PIPES)
+		list(APPEND SOURCES os_win_pipes.c)
+	else()
+		list(APPEND SOURCES os_win.c)
+	endif()
 	set(CMAKE_DEBUG_POSTFIX _debug)
 elseif(APPLE)
 	set(MAC_OBJC_SOURCES
