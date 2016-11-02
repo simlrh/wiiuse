@@ -11,6 +11,8 @@ Mailing list: <wiiuse@librelist.com> - just email to subscribe. See
 
 Changelog: <https://github.com/rpavlik/wiiuse/blob/master/CHANGELOG.mkd>
 
+[![Build Status](https://travis-ci.org/rpavlik/wiiuse.svg?branch=master)](https://travis-ci.org/rpavlik/master)
+
 About
 -----
 
@@ -40,7 +42,7 @@ button on the web interface should make this even simpler.
 Authors
 -------
 
-Fork Maintainer: Ryan Pavlik <rpavlik@iastate.edu> or <abiryan@ryand.net>
+Mostly-absentee (but delegating!) Fork Maintainer: Ryan Pavlik <ryan.pavlik@gmail.com> or <abiryan@ryand.net>
 
 Original Author: Michael Laforest < para > < thepara (--AT--) g m a i l [--DOT--] com >
 
